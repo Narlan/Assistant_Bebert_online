@@ -1,6 +1,7 @@
 body {
  	color: rgb(20, 20, 20);
  	font-weight: lighter;
+ 	margin: 0;
 }
 
 h1 {
@@ -22,7 +23,6 @@ p {
 	background-image: url("./img/banner.jpg");
 	background-size: cover;
 	background-position:top center;
-	margin: 0 auto;
 	background-repeat:no-repeat;
 	padding: 150px;
 	text-shadow: 1px 1px 5px black;
