@@ -1,7 +1,7 @@
 body {
  	color: rgb(20, 20, 20);
  	font-weight: lighter;
- 	margin: 0;
+ 	margin: 50;
 }
 
 h1 {
@@ -19,13 +19,18 @@ p {
 }
 
 #banner {
-	text-align: center;
-	height: 100vh;
-	background-image: url("./img/banner.jpg");
+	display: flex;
 	background-size: cover;
+	height: 600px;
+	text-align: center;
+	justify-content: space-around;
+}
+
+#banner-content {
+	background-repeat: no-repeat;
+	padding: 100px;
 	background-position:top center;
-	background-repeat:no-repeat;
-	padding: 150px;
+	background-image: url("./img/banner.jpg");
 	text-shadow: 1px 1px 5px black;
 	color : white;
 }
