@@ -22,14 +22,15 @@ p {
 	display: flex;
 	background-size: cover;
 	height: 600px;
-	text-align: center;
 	justify-content: space-around;
+	text-align: center;
 }
 
 #banner-content {
+	flex-grow: 2;
 	background-repeat: no-repeat;
 	padding: 100px;
-	background-position:top center;
+	background-position: top center;
 	background-image: url("./img/banner.jpg");
 	text-shadow: 1px 1px 5px black;
 	color : white;
